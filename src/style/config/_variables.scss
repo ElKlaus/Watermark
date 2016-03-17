@@ -1,0 +1,48 @@
+//-----------------------------------------------------------------------
+//		This file contains all application-wide Sass variables.
+//-----------------------------------------------------------------------
+
+
+
+/*****************************
+		----TYPOGRAPHY----
+*****************************/
+
+
+$font-family-light: 'robotolight';
+$font-family-regular: 'robotoregular', 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+$font-family-semibold: 'robotosemibold';
+$font-family-bold: 'robotobold';
+$font-family-extrabold: 'robotoextrabold';
+
+$font-family-light-italic: 'robotolight_italic';
+$font-family-italic: 'robotoitalic';
+$font-family-semibold-italic: 'robotosemibold_italic';
+$font-family-bold-italic: 'robotobold_italic';
+$font-family-extrabold-italic: 'robotoextrabold_italic';
+
+// Code (monospace) font family
+
+$font-family-code: 'Ubuntu Mono', 'Monaco', monospace !default;
+
+
+/*****************************
+		----Colors----
+*****************************/
+
+// Typography
+
+$black-text-color: #2e3641 !default;
+$white-text-color: #fff !default;
+$link-color: #8e9298 !default;
+$link-hover-color: lighten($link-color, 20%) !default;
+
+
+
+$primary-color: #f97e76 !default;
+$primary-color-light: lighten($primary-color, 20%) !default;
+$primary-color-dark: darken($primary-color, 20%) !default;
+
+$secondary-color: #9eb2c0 !default;
+$secondary-color-light: #c1cfd9 !default;
+$secondary-color-dark: darken($secondary-color, 20%) !default;
